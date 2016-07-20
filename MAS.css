@@ -9,6 +9,7 @@ body {
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
+  color: #00a3b7;
 }
 
 .remark-code, .remark-inline-code {
@@ -16,6 +17,20 @@ h1, h2, h3 {
 }
 
 img {
-  width: 100%;
+  width: 80%;
   height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: block;
+  background-color: #00a3b7;
+  color: #fff;
+
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
 }
